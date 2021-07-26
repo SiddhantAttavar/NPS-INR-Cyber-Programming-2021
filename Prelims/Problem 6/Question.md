@@ -1,26 +1,22 @@
 **Problem Statement:** <br>
-There is a hidden number _X_. You are given _Q_ queries to find the number. For each query write an integer into STDOUT and read the result from STDIN. The result is "equal to" (=), "greater than" (>), or "less than" (<). 
-
-Note: Terminate the program once you have received the “=” result and make sure to flush the output stream to get input.
+You have _N_ coins and you want to form a pyramid with it. If a pyramid has a height of _K_ units, then there are _i_ coins on the _ith_ level (1 &le; _i_ &le; _K_). Your task is to find the maximum height pyramid that you can form using the given coins.
 
 **Constraints:** <br>
- - 1 &le; _X_ &le; 1000
- - Q = 11
+Subtask 1: 1 &le; _N_ &le; 10<sup>5</sup> <br>
+Subtask 2: 1 &le; _N_ &le; 10<sup>9</sup> <br>
 
-**Interaction format:** <br>
- - The first line contains and integer _Q_, denoting the number of queries.
- - For each query, print an integer _X_ into STDOUT and read the result from STDIN.
- - The result will be of 3 types:
-   - = : The result is equal to _X_ (Terminate your program)
-   - \> : The result is greater than _X_
-   - < : The result is less than _X_
+**Input format:** <br>
+ - The first line contains a single integer _N_, the number of coins.
 
-**Sample interaction:** <br>
+**Output format:** <br>
+ - Print a single integer _K_, the height of the largest pyramid that you can form.
+
+**Sample input:** <br>
 ```
-1
-    >
-70
-    <
-46
-    =
+7
+```
+
+**Sample output:** <br>
+```
+3
 ```
