@@ -4,9 +4,14 @@ You are given an integer array _A_ of length _N_. Find the contiguous subarray o
 **Constraints:** <br>
  - -10<sup>9</sup> &le; _A<sub>i</sub>_ &le; 10<sup>9</sup>
 
-Subtask 1: 1 &le; _N_ &le; 100 <br>
-Subtask 2: 1 &le; _N_ &le; 1000 <br>
-Subtask 3: 1 &le; _N_ &le; 10<sup>5</sup> <br>
+Subtask 1: (10 points)
+ - 1 &le; _N_ &le; 100
+
+Subtask 2: (30 points)
+ - 1 &le; _N_ &le; 1000
+
+Subtask 3: (60 points)
+ - 1 &le; _N_ &le; 10<sup>5</sup>
 
 **Input Format:** <br>
  - The first line contains a single integer _N_

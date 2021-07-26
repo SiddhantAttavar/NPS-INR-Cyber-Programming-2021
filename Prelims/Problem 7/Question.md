@@ -3,11 +3,14 @@ Given a 2d array of size _N_*_N_ filled with 0s and 1s. You need to answer _Q_ q
 
 **Constraints:** <br>
  - 1 &le; _N_ &le; 1000
- - 1 &le; _X<sub>1</sub>_ &le; _X<sub>2</sub>_ &le; _N_ <br>
- - 1 &le; _Y<sub>1</sub>_ &le; _Y<sub>2</sub>_ &le; _N_ <br>
+ - 1 &le; _X<sub>1</sub>_ &le; _X<sub>2</sub>_ &le; _N_
+ - 1 &le; _Y<sub>1</sub>_ &le; _Y<sub>2</sub>_ &le; _N_
 
-Subtask 1: _Q_ = 1 <br>
-Subtask 2: 1 &le; _Q_ &le; 10<sup>5<sup> <br>
+Subtask 1: (30 points)
+ - _Q_ = 1
+
+Subtask 2: (70 points)
+ - 1 &le; _Q_ &le; 10<sup>5<sup>
 
 **Input Format:** <br>
  - The first line contains 2 integers _N_ and _Q_
