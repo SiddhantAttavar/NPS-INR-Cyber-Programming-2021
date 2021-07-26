@@ -14,7 +14,7 @@ int main() {
 
     // Create an array best which is the largest sum of a 
     // contiguous subarray that ends at the current index
-    int best[n];
+    ll best[n];
     best[0] = a[0];
     for (int i = 1; i < n; i++) {
         best[i] = max(best[i - 1] + a[i], a[i]);

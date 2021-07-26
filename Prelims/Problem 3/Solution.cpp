@@ -7,7 +7,7 @@ int main() {
     // Take input
     int n;
     cin >> n;
-    int a[n], b[n];
+    ll a[n], b[n];
     for (int i = 0; i < n; i++) {
         cin >> a[i];
     }
@@ -16,7 +16,7 @@ int main() {
     }
 
     // Find the values of array c
-    int c[n];
+    ll c[n];
     for (int i = 0; i < n; i++) {
         c[i] = a[i] * b[i];
     }
