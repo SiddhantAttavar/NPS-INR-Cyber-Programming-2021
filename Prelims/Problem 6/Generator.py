@@ -7,3 +7,6 @@ def generate(subtask):
         print(randint(1, int(1e5)))
     else:
         print(randint(1, int(1e9)))
+
+if __name__ == '__main__':
+    generate(int(input('Enter the subtask: ')))

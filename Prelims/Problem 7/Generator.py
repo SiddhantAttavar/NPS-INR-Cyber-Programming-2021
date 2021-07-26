@@ -30,3 +30,6 @@ def generate(subtask):
             y1, y2 = y2, y1
         
         print(x1, x2, y1, y2)
+
+if __name__ == '__main__':
+    generate(int(input('Enter the subtask: ')))

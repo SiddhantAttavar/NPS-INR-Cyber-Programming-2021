@@ -2,13 +2,14 @@
 import sys
 from os import makedirs
 from os.path import exists
+from importlib.util import spec_from_file_location, module_from_spec
 
 # Take input of number of testfiles and folder path
 folderPath = input('Enter the relative folder path: ')
-testFiles= int(input('Enter the number of test files: '))
+subtasks = list(map(int, input('Enter the subtask distribution: ').split()))
 
 # Create a new input and output file for each test file
-for i in range(testFiles):
+for testFile, subtask in enumerate(subtasks):
     # Create a new input and output directory if they don't exist
     if not exists(f'{folderPath}/input'):
         makedirs(f'{folderPath}/input')
@@ -19,22 +20,36 @@ for i in range(testFiles):
     inputFile = None
     outputFile = None
     try:
-        inputFile = open(f'{folderPath}/input/{i}.in', 'w')
-        outputFile = open(f'{folderPath}/output/{i}.in', 'w')
+        inputFile = open(f'{folderPath}/input/{testFile}.in', 'w')
+        outputFile = open(f'{folderPath}/output/{testFile}.in', 'w')
     except:
         print('Error opening the files')
         continue
 
-    # Write the data to the input file
-    sys.stdout = inputFile
-    with open(f'{folderPath}/Generator.py', 'r', encoding = 'utf8') as generatorFile:
-        exec(generatorFile.read())
+    # Check if files exist
+    if exists(f'{folderPath}/Generator.py'):
+        # Write the data to the input file
+        sys.stdout = inputFile
+        spec = spec_from_file_location('Generator', f'{folderPath}/Generator.py')
+        generatorModule = module_from_spec(spec)
+        spec.loader.exec_module(generatorModule)
+        generatorModule.generate(subtask)
+
+    # Open the input file in read mode
+    try:
+        inputFile = open(f'{folderPath}/input/{testFile}.in', 'r')
+    except:
+        print('Error opening the files')
+        continue
 
     # Write the result to the output file
-    sys.stdin = inputFile
-    sys.stdout = outputFile
-    with open(f'{folderPath}/Solution.py', 'r', encoding = 'utf8') as solutionFile:
-        exec(solutionFile.read())
+    if exists(f'{folderPath}/Solution.py'):
+        sys.stdin = inputFile
+        sys.stdout = outputFile
+        spec = spec_from_file_location('Solution', f'{folderPath}/Solution.py')
+        solutionModule = module_from_spec(spec)
+        spec.loader.exec_module(solutionModule)
+        solutionModule.solve()
     
     # Close the files
     inputFile.close()

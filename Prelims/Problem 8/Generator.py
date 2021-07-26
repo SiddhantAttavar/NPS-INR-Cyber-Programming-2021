@@ -14,3 +14,6 @@ def generate(subtask):
     # Generate the array
     for _ in range(n):
         print(randint(int(-1e9), int(1e9)), end = ' ')
+
+if __name__ == '__main__':
+    generate(int(input('Enter the subtask: ')))

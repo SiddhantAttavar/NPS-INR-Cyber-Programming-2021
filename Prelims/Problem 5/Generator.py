@@ -10,3 +10,6 @@ def generate(subtask):
     directions = ['U', 'D', 'L', 'R']
     for i in range(n):
         print(choice(directions), randint(1, 100))
+
+if __name__ == '__main__':
+    generate(int(input('Enter the subtask: ')))
