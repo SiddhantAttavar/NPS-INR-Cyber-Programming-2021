@@ -2,20 +2,19 @@
 from random import randint
 
 def generate(subtask):
-    # Print N
+    # Generate N and Q
     n = randint(1, 1000)
+    if subtask == 1:
+        q = 1
+    else:
+        q = randint(1, int(1e5))
+    print(n, q)
 
     # Generate the grid
     for i in range(n):
         for j in range(n):
             print(randint(0, 1), end = '')
         print()
-    
-    # Generate Q
-    if subtask == 1:
-        q = 1
-    else:
-        q = randint(1, int(1e5))
     
     for _ in range(q):
         # Print the subrectangle

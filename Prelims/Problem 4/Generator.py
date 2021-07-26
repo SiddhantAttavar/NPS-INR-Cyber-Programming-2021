@@ -15,7 +15,7 @@ def generate(subtask):
             name += chr(randint(ord('A'), ord('Z')))
 
         # Print name with random marks and age
-        print(name, randint(1, int(1e9), randint(1, int(1e9))))
+        print(name, randint(1, int(1e9)), randint(1, int(1e9)))
 
 if __name__ == '__main__':
     generate(int(input('Enter the subtask: ')))
