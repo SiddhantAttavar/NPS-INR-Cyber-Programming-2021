@@ -1,39 +1,30 @@
 **Problem Statement:** <br>
-Given a 2d array of size _N_*_N_ filled with 0s and 1s. You need to answer _Q_ queries. For each of the _Q_ queries find the number of 1s in a given subrectangle with corners (_X<sub>1</sub>_, _Y<sub>1</sub>_) and (_X<sub>2</sub>_, _Y<sub>2</sub>_), inclusive.
+You are given an array _A_ with _N_ integers and an integer _K_. Your task is to find the number of quadruples (_i_, _j_, _k_, _l_) such that 1 &le; _i_ < _j_ < _k_ < _l_ &le; _N_ and _A<sub>i</sub>_, _A<sub>j</sub>_, _A<sub>k</sub>_, _A<sub>l</sub>_ add up to _K_.
 
 **Constraints:** <br>
+Subtask 1: 10 points
+ - 1 &le; _N_ &le; 50
+
+Subtask 2: 40 points
+ - 1 &le; _N_ &le; 100
+
+Subtask 3: 50 points
  - 1 &le; _N_ &le; 1000
- - 1 &le; _X<sub>1</sub>_ &le; _X<sub>2</sub>_ &le; _N_
- - 1 &le; _Y<sub>1</sub>_ &le; _Y<sub>2</sub>_ &le; _N_
-
-Subtask 1: (30 points)
- - _Q_ = 1
-
-Subtask 2: (70 points)
- - 1 &le; _Q_ &le; 10<sup>5<sup>
 
 **Input Format:** <br>
- - The first line contains 2 integers _N_ and _Q_
- - The next _N_ lines contain _N_ characters (0 / 1) each denoting the elements of the 2d array
- - The next line contains _Q_ integers separated by a space
- - The next _Q_ lines contain 4 space separated integers _X<sub>1</sub>_, _Y<sub>1</sub>_, _X<sub>2</sub>_, _Y<sub>2</sub>_ each
+ - The first line contains a single integer _N_
+ - The next line contains _N_ space separated integers denoting the elements of _A_
 
 **Output Format:** <br>
- - Print Q lines, each containing a single integer denoting the number of 1s in the given subrectangle
+ - Print a single integer that is the number of quadruples which satisfy the given criteria
 
-**Sample input:** <br>
+**Sample Input:** <br>
 ```
-4 2
-0010
-1110
-1001
-1100
-1 1 2 2
-2 3 4 4
+6 9
+1 3 4 2 4 2
 ```
 
 **Sample output:** <br>
 ```
-2
 2
 ```

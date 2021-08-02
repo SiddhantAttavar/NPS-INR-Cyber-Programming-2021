@@ -4,13 +4,13 @@ You are given an integer array _A_ of length _N_. Find the contiguous subarray o
 **Constraints:** <br>
  - -10<sup>9</sup> &le; _A<sub>i</sub>_ &le; 10<sup>9</sup>
 
-Subtask 1: (10 points)
+Subtask 1: 10 points
  - 1 &le; _N_ &le; 100
 
-Subtask 2: (30 points)
+Subtask 2: 30 points
  - 1 &le; _N_ &le; 1000
 
-Subtask 3: (60 points)
+Subtask 3: 60 points
  - 1 &le; _N_ &le; 10<sup>5</sup>
 
 **Input Format:** <br>

@@ -1,15 +1,19 @@
 # Import random functions
-from random import randint, choice
+from random import randint
 
 def generate(subtask):
-    # Print N
-    n = randint(1, int(1e5))
+    # Generate N and K
+    if subtask == 1:
+        n = randint(1, 100)
+    elif subtask == 2:
+        n = randint(1, 1000)
     print(n)
 
-    # Print the details for N moves
-    directions = ['U', 'D', 'L', 'R']
+    # Generate the square
     for i in range(n):
-        print(choice(directions), randint(1, 100))
+        for j in range(n):
+            print(randint(0, 1), end = '')
+        print()
 
 if __name__ == '__main__':
     generate(int(input('Enter the subtask: ')))

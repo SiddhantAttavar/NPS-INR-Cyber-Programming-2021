@@ -1,34 +1,35 @@
 # Import random functions
-from random import randint
+from random import randint, sample
 
 def generate(subtask):
-    # Generate N and Q
-    n = randint(1, 1000)
+    # Generate N and K
     if subtask == 1:
-        q = 1
+        n = randint(1, 50)
+    elif subtask == 2:
+        n = randint(1, 100)
     else:
-        q = randint(1, int(1e5))
-    print(n, q)
+        n = randint(1, 1000)
+    k = randint(int(8e8), int(1e9))
+    print(n, k)
 
-    # Generate the grid
-    for i in range(n):
-        for j in range(n):
-            print(randint(0, 1), end = '')
-        print()
+    # Generate the array A
+    a = [randint(1, k) for _ in range(n)]
     
-    for _ in range(q):
-        # Print the subrectangle
-        x1 = randint(1, n)
-        x2 = randint(1, n)
-        y1 = randint(1, n)
-        y2 = randint(1, n)
+    # Change a few at random to increase the answer
+    numToChange = randint(1, n // 4)
+    indexes = list(range(n))
+    for _ in range(numToChange):
+        p, q, r, s = sorted(sample(indexes, 4))
+        if a[p] + a[q] + a[r] > k:
+            # Reduce all by a third
+            a[p] //= 3
+            a[q] //= 3
+            a[r] //= 3
+        # Change the last num to make the sum k
+        a[s] = k - (a[p] + a[q] + a[r])
 
-        if x1 > x2:
-            x1, x2 = x2, x1
-        if y1 > y2:
-            y1, y2 = y2, y1
-        
-        print(x1, x2, y1, y2)
+    # Print the array
+    print(*a)
 
 if __name__ == '__main__':
     generate(int(input('Enter the subtask: ')))

@@ -2,10 +2,10 @@
 You have _N_ coins and you want to form a pyramid with it. If a pyramid has a height of _K_ units, then there are _i_ coins on the _ith_ level (1 &le; _i_ &le; _K_). Your task is to find the maximum height pyramid that you can form using the given coins.
 
 **Constraints:** <br>
-Subtask 1: (25 points)
+Subtask 1: 25 points
  - 1 &le; _N_ &le; 10<sup>5</sup>
 
-Subtask 2: (75 points)
+Subtask 2: 75 points
  - 1 &le; _N_ &le; 10<sup>9</sup>
 
 **Input format:** <br>

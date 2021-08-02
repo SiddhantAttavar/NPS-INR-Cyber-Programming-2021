@@ -1,24 +1,25 @@
 def solve():
-    # Initialize position
-    x = 0
-    y = 0
+    # Take input
+    n = int(input())
+    square = [list(map(int, input())) for _ in range(n)]
 
-    for i in range(int(input())):
-        # Take input
-        dir, delta = input().split()
-
-        # Update position
-        if dir == 'U':
-            y += int(delta)
-        elif dir == 'D':
-            y -= int(delta)
-        elif dir == 'L':
-            x -= int(delta)
-        elif dir == 'R':
-            x += int(delta)
-
-    # Print the final position
-    print(x, y)
+    # Find the number of ones in each row and column
+    rowOnes = [0] * n
+    colOnes = [0] * n
+    for i in range(n):
+        for j in range(n):
+            if square[i][j]:
+                rowOnes[i] += 1
+                colOnes[j] += 1
+    
+    # For each row and column if the number of ones is x
+    # The number of pairs we can form is x * (x - 1) / 2
+    res = 0
+    for ones in rowOnes + colOnes:
+        res += ones * (ones - 1) // 2
+    
+    # Print result
+    print(res)
 
 if __name__ == '__main__':
     solve()
