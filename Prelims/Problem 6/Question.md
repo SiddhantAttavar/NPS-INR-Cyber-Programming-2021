@@ -1,5 +1,5 @@
 **Problem Statement:** <br>
-You have _N_ coins and you want to form a pyramid with it. If a pyramid has a height of _K_ units, then there are _i_ coins on the _ith_ level (1 &le; _i_ &le; _K_). Your task is to find the maximum height pyramid that you can form using the given coins.
+Elon Musk wants to build a pyramid of Teslas to appease the Martian Gods. If a pyramid has a height of _K_ units, then there are _i_ Teslas on the ith level (1 &le; _i_ &le; _K_). To avoid being killed by the Martians when the SpaceX astronauts land on Mars, Elon Musk has hired you to find the maximum height pyramid that can be formed using _N_ Teslas.
 
 **Constraints:** <br>
 Subtask 1: 25 points

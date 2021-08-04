@@ -1,2 +1,2 @@
-# Print the string “Welcome to Cyber Programming 2021”
-print("Welcome to Cyber Programming 2021")
+# Print the string "Bill Gates"
+print("Bill Gates")

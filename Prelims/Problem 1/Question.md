@@ -1,5 +1,5 @@
 **Problem Statement:** <br>
-Print the string “Welcome to Cyber Programming 2021” (without quotes)
+Bill Gates is feeling sad. Cheer him up by printing his name.
 
 **Constraints:** <br>
 No constraints
@@ -8,7 +8,7 @@ No constraints
 No input
 
 **Output Format:** <br>
-Welcome to Cyber Programming 2021
+ - Print a single line containing the string "Bill Gates" (without quotes)
 
 **Sample input:** <br>
 ```
@@ -16,5 +16,5 @@ Welcome to Cyber Programming 2021
 
 **Sample output:** <br>
 ```
-Welcome to Cyber Programming 2021
+Bill Gates
 ```

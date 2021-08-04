@@ -1,5 +1,9 @@
 **Problem Statement:** <br>
-Consider a square of dimension _N_ * _N_ divided into equal squares with dimension 1 * 1. Each square is either empty or filled. The squares are randomly filled. Find the number of pairs of cells which are filled that are in the same row or in the same column of the square.
+In an alternate timeline, Linus Sebastian from Linus Food Tips opened a restaurant. He observed a way by which he could find the happiness of his customers. 
+
+Each table is a square grid of dimension _N_ * _N_ divided into equal cells with dimension 1 * 1. Each square is either empty or filled with a dish. The dishes are placed on the cells randomly. The cells with a dish are denoted by 1 and the ones without a dish are denoted by 0.
+
+He found out that the number of pairs of cells that have a dish that are in the same row or the same column of the square gives the happiness of the customer. Find the happiness of the customer given the grid of dishes.
 
 **Constraints:** <br>
 Subtask 1: 40 points

@@ -1,5 +1,7 @@
 **Problem Statement:** <br>
-You are given a list of _N_ students. For the _ith_ student, you are given his/her name (_A<sub>i</sub>_), marks (_B<sub>i</sub>_), and age (_C<sub>i</sub>_). Your task is to sort the list of students according to the following criteria:
+After retiring from his job, Jeff Bezos decided to settle down as a teacher in the countryside. However, he wasn’t very good at his new job.
+
+On his first day as a teacher, he was given a list of N students. For each student, Jeff was given his/her name, marks, and age. Help Jeff to sort the list of students according to the following criteria:
  - Students with shorter names are placed before students with longer names
  - If 2 students have the same length name, the student with higher marks are placed earlier
  - If 2 students have the same length name and marks, the student with lower age is placed earlier

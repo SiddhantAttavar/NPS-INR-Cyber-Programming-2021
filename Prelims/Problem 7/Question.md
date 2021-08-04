@@ -1,5 +1,7 @@
 **Problem Statement:** <br>
-You are given an array _A_ with _N_ integers and an integer _K_. Your task is to find the number of quadruples (_i_, _j_, _k_, _l_) such that 1 &le; _i_ < _j_ < _k_ < _l_ &le; _N_ and _A<sub>i</sub>_, _A<sub>j</sub>_, _A<sub>k</sub>_, _A<sub>l</sub>_ add up to _K_.
+While McAfee mourned its founder’s death, it was threatened by a group of anonymous hackers that have given them an array A with N integers and an integer K. Solving this array by finding the number of quadruples (_i_, _j_, _k_, _l_) such that 1 &le; _i_ < _j_ < _k_ < _l_ &le; _N_ and _A<sub>i</sub>_, _A<sub>j</sub>_, _A<sub>k</sub>_, _A<sub>l</sub>_ add up to _K_, will indicate the number of servers that have been infected in their South China Sea cluster.
+
+Your job is to find this number to solve this small piece of the puzzle.
 
 **Constraints:** <br>
 Subtask 1: 10 points

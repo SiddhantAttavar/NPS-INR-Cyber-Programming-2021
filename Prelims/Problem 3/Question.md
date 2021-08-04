@@ -1,5 +1,9 @@
 **Problem Statement:** <br>
-You are given 2 arrays _A_ and _B_ each with _N_ integers. Your task is to find an array _C_ of length such that each element is the product of the corresponding elements in _A_ and _B_. Formally, _C<sub>i</sub>_ = _A<sub>i</sub>_ * _B<sub>i</sub>_ (1 &le; i &le; _N_).
+The government was sure that Mark Zuckerberg was a lizard alien, but they didn’t have any proof. They devised a test to confirm their suspicions. If Mark couldn’t solve a math question, they could be sure that he really isn’t a human. 
+
+Mark has to find an array _C_ of length such that each element is the product of the corresponding elements in _A_ and _B_. Formally, _C<sub>i</sub>_ = _A<sub>i</sub>_ * _B<sub>i</sub>_ (1 &le; i &le; _N_).
+
+Help Mark prove to the government that he actually is a human. 
 
 **Constraints:** <br>
  - 1 &le; _N_ &le; 10<sup>5</sup>
