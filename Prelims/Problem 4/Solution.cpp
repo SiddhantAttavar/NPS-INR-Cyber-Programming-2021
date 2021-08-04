@@ -18,18 +18,14 @@ int main() {
     }
 
     // First sort by age
-    sort(students, students + n, [](const Student& a, const Student& b) {
+    stable_sort(students, students + n, [](const Student& a, const Student& b) {
+        if (a.name.length() != b.name.length()) {
+            return a.name.length() < b.name.length();
+        }
+        if (a.marks != b.marks) {
+            return a.marks > b.marks;
+        }
         return a.age < b.age;
-    });
-
-    // Then sort by marks
-    sort(students, students + n, [](const Student& a, const Student& b) {
-        return a.marks > b.marks;
-    });
-
-    // Finally sort by name length
-    sort(students, students + n, [](const Student& a, const Student& b) {
-        return a.name.length() < b.name.length();
     });
 
     // Print the names of the students

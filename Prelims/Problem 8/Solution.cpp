@@ -17,7 +17,7 @@ int main() {
     ll best[n];
     best[0] = a[0];
     for (int i = 1; i < n; i++) {
-        best[i] = max(best[i - 1] + a[i], a[i]);
+        best[i] = max(best[i - 1] + a[i], (ll) a[i]);
     }
 
     // The answer is the maximum number in best
