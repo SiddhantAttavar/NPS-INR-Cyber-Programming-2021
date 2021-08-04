@@ -16,7 +16,7 @@ def generate(subtask):
     a = [randint(1, k) for _ in range(n)]
     
     # Change a few at random to increase the answer
-    numToChange = randint(1, n // 4)
+    numToChange = randint(n // 4, n // 2)
     indexes = list(range(n))
     for _ in range(numToChange):
         p, q, r, s = sorted(sample(indexes, 4))
