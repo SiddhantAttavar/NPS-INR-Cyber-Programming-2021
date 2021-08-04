@@ -5,8 +5,11 @@ from os.path import exists
 from importlib.util import spec_from_file_location, module_from_spec
 
 # Take input of number of testfiles and folder path
-folderPath = input('Enter the relative folder path: ')
-subtasks = list(map(int, input('Enter the subtask distribution: ').split()))
+folderPath = input('Enter the relative folder path: ').strip()
+
+# Get subtask distribution
+with open(f'{folderPath}/Subtasks.txt') as subtasksFile:
+    subtasks = list(map(int, subtasksFile.read().split()))
 
 # Create a new input and output file for each test file
 for testFile, subtask in enumerate(subtasks):
@@ -49,7 +52,6 @@ for testFile, subtask in enumerate(subtasks):
         spec = spec_from_file_location('Solution', f'{folderPath}/Solution.py')
         solutionModule = module_from_spec(spec)
         spec.loader.exec_module(solutionModule)
-        solutionModule.solve()
     
     # Close the files
     inputFile.close()
