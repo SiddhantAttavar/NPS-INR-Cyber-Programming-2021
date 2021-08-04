@@ -24,7 +24,7 @@ for testFile, subtask in enumerate(subtasks):
     outputFile = None
     try:
         inputFile = open(f'{folderPath}/input/{testFile}.in', 'w')
-        outputFile = open(f'{folderPath}/output/{testFile}.in', 'w')
+        outputFile = open(f'{folderPath}/output/{testFile}.out', 'w')
     except:
         print('Error opening the files')
         continue
