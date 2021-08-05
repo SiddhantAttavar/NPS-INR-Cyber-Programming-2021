@@ -31,3 +31,12 @@ Subtask 2: 60 points
 ```
 4
 ```
+
+**Explanation:** <br><br>
+<img src="grid.jpg"/>
+
+(Cells’ names in red)
+ - Pairs of cells on the same row: (_B_, _C_), (_G_, _I_)
+ - Pairs of cells on the same column: (_D_, _G_), (_C_, _I_)
+
+Total = 4
