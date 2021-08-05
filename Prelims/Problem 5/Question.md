@@ -8,10 +8,10 @@ Each table is a square grid of dimension _N_ * _N_ divided into equal cells with
 He found out that the number of pairs of cells that have a dish that are in the same row or the same column of the square gives the happiness of the customer. Find the happiness of the customer given the grid of dishes.
 
 **Constraints:** <br>
-Subtask 1: 40 points
+Subtask 1: 30 points
  - 1 &le; _N_ &le; 100
 
-Subtask 2: 60 points
+Subtask 2: 50 points
  - 1 &le; _N_ &le; 1000
 
 **Input Format:** <br>

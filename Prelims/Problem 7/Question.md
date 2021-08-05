@@ -6,10 +6,10 @@ While McAfee mourned its founder’s death, it was threatened by a group of anon
 Your job is to find this number to solve this small piece of the puzzle.
 
 **Constraints:** <br>
-Subtask 1: 10 points
+Subtask 1: 20 points
  - 1 &le; _N_ &le; 50
 
-Subtask 2: 40 points
+Subtask 2: 30 points
  - 1 &le; _N_ &le; 100
 
 Subtask 3: 50 points
