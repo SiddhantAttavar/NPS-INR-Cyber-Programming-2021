@@ -12,7 +12,9 @@ with open(f'{folderPath}/Subtasks.txt') as subtasksFile:
     subtasks = list(map(int, subtasksFile.read().split()))
 
 # Create a new input and output file for each test file
-for testFile, subtask in enumerate(subtasks):
+for testFileCount, subtask in enumerate(subtasks):
+    testFile = testFileCount + 1
+
     # Create a new input and output directory if they don't exist
     if not exists(f'{folderPath}/input'):
         makedirs(f'{folderPath}/input')
