@@ -1,3 +1,5 @@
+# Hey Google, play poker.
+
 **Problem Statement:** <br>
 Google is testing their Google Assistant’s skill in the high risk, high reward game of poker. Sundar Pichai asks his product manager for a report on the success rates of the assistant. The product manager then turns to you and asks you to complete a task.
 You are given an integer array _A_ of length _N_. Find the contiguous subarray of the array which has the largest sum.

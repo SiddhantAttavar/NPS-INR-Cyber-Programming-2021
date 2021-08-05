@@ -1,3 +1,5 @@
+# The Perfect Review
+
 **Problem Statement:** <br>
 In order to make the perfect phone review, Marques Brownlee decided to test each and every app on the phone thoroughly. Help Marques check the phone’s calculator by printing the squares of the first _N_ natural numbers in a single line.
 

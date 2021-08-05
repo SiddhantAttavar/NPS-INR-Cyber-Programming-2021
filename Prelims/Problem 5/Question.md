@@ -1,3 +1,5 @@
+# Linus Food Tips
+
 **Problem Statement:** <br>
 In an alternate timeline, Linus Sebastian from Linus Food Tips opened a restaurant. He observed a way by which he could find the happiness of his customers. 
 
