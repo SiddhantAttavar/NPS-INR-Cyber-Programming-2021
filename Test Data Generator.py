@@ -23,8 +23,8 @@ for testFile, subtask in enumerate(subtasks):
     inputFile = None
     outputFile = None
     try:
-        inputFile = open(f'{folderPath}/input/{testFile}.in', 'w')
-        outputFile = open(f'{folderPath}/output/{testFile}.out', 'w')
+        inputFile = open(f'{folderPath}/input/input0{testFile}.txt', 'w')
+        outputFile = open(f'{folderPath}/output/output0{testFile}.txt', 'w')
     except:
         print('Error opening the files')
         continue
@@ -40,7 +40,7 @@ for testFile, subtask in enumerate(subtasks):
 
     # Open the input file in read mode
     try:
-        inputFile = open(f'{folderPath}/input/{testFile}.in', 'r')
+        inputFile = open(f'{folderPath}/input/input0{testFile}.txt', 'r')
     except:
         print('Error opening the files')
         continue
