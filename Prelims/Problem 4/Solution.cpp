@@ -3,16 +3,20 @@ using namespace std;
 typedef long long ll;
 typedef vector<int> vi;
 
+// Struct for storing student data
 struct Student {
     string name;
     int marks, age;
 };
 
+// Array for student array
+// Created on the heap
+Student students[100000];
+
 int main() {
     // Take input
     int n;
     cin >> n;
-    Student students[n];
     for (int i = 0; i < n; i++) {
         cin >> students[i].name >> students[i].marks >> students[i].age;
     }
