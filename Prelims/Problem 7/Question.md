@@ -15,8 +15,8 @@ Subtask 2: 30 points
 Subtask 3: 50 points
  - 1 &le; _N_ &le; 1000
 
-**Input Format:** <br>
- - The first line contains a single integer _N_
+**Input Format:** <br>_
+ - The first line contains two space seperated integers _N_ and _K_
  - The next line contains _N_ space separated integers denoting the elements of _A_
 
 **Output Format:** <br>
