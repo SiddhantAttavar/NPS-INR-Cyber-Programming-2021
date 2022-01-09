@@ -1,4 +1,4 @@
-# Sad Bill Gates
+# 2x1 Tiling
 
 **Problem Statement:** <br>
 You are provided with an infinite supply of _1 × 2_ and _2 × 1_ tiles. Your task is to tile a _N × 2_ grid. For example you can tile a _2 × 2_ grid using 2 _1 × 2_ tiles or 2 _2 × 1_ tiles. Find the total number of ways you can tile a _N × 2_ grid using only _1 × 2_ and _2 × 1_ tiles.
