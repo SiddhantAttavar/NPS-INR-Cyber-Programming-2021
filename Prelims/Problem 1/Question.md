@@ -1,22 +1,22 @@
 # Sad Bill Gates
 
-**Problem Statement:** <br>
+## Problem Statement: <br>
 Bill Gates is feeling sad. Cheer him up by printing his name.
 
-**Constraints:** <br>
+## Constraints: <br>
 No constraints
 
-**Input Format:** <br>
+## Input Format: <br>
 No input
 
-**Output Format:** <br>
+## Output Format: <br>
  - Print a single line containing the string "Bill Gates" (without quotes)
 
-**Sample input:** <br>
+## Sample input: <br>
 ```
 ```
 
-**Sample output:** <br>
+## Sample output: <br>
 ```
 Bill Gates
 ```
