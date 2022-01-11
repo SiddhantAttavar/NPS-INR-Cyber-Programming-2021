@@ -1,9 +1,13 @@
 # NPS-INR-Cyber-Programming-2021
 The 2021 edition of the NPS Indiranagar interhouse Cyber Programming contest.
 
-The preliminary round was held on 6th August 2021. 21 students partecipated in the contest and attempted to solve 8 problems in 1 hour. The top 4 students from each house were selected for the final round.
+The preliminary round was held on 6th August 2021. 21 students partecipated in the contest and attempted to solve 8 problems in 1 hour. The top 3 students from each house were selected for the final round. The final round was held on 11th January 2022. The selected students from each house participated. Finals results were:
+1. : points
+2. : points
+3. : points
+4. : points
 
-Under the Prelims folder you can find 8 folders containing the details of each problem. Each folder consists of:
+Under the `Prelims` and `Finals` folder you can find subfolders containing the details of each problem. Each folder consists of:
  - Problem Statement: ```Question.md```
  - Solutions: ```Solution.py```, ```Solution.cpp```
  - Test inputs: ```input/inputxx.txt```
