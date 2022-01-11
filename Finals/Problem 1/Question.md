@@ -1,9 +1,11 @@
-# 2x1 Tiling
+# Jack Ma's New Hobby
 
-**Problem Statement:** <br>
-You are provided with an infinite supply of _1 × 2_ and _2 × 1_ tiles. Your task is to tile a _N × 2_ grid. For example you can tile a _2 × 2_ grid using 2 _1 × 2_ tiles or 2 _2 × 1_ tiles. Find the total number of ways you can tile a _N × 2_ grid using only _1 × 2_ and _2 × 1_ tiles.
+## Problem Statement: <br>
+Sitting in a Chinese prison for a misunderstanding, Jack Ma developed a hobby of dominoes art. While putting together, arguably the best domino art the prison had seen, he began to wonder…
+What if I had an infinite supply of _1 × 2_ and _2 × 1_ dominoes and had to fill an _N × 2_ grid?
+For example, Jack can fill a _2 × 2_ grid using 2 _1 × 2_ dominoes or 2 _2 × 1_ dominoes. Find the total number of ways Jack can fill an _N × 2_ grid using only _1 × 2_ and _2 × 1_ dominoes.
 
-**Constraints:** <br>
+## Constraints: <br>
 Subtask 1: 10 points
  - 1 &le; _N_ &le; 5
 
@@ -13,18 +15,18 @@ Subtask 1: 10 points
 Subtask 1: 10 points
  - 1 &le; _N_ &le; 10<sup>5</sup>
 
-**Input Format:** <br>
+## Input Format: <br>
  - The first line contains a single integer _N_
 
-**Output Format:** <br>
+## Output Format: <br>
  - Print a single line containing the required answer
 
-**Sample input:** <br>
+## Sample input: <br>
 ```
 3
 ```
 
-**Sample output:** <br>
+## Sample output: <br>
 ```
 3
 ```
