@@ -1,9 +1,10 @@
-# Double Sum
+# H Ram Learns Maths
 
-**Problem Statement:** <br>
-You are given an array _A_ of length _N_ as well as an integer _X_. Your task is to find 2 integers _i_ and _j_ such that _A<sub>i</sub>_ + _A<sub>j</sub>_. If there are multiple solutions you must print the one where _i_ is minimum (and _j_ is maximum if there are multiple possible values of _j_). Additionally, you know that _A_ is sorted, i.e. _A<sub>i</sub>_ &le; _A<sub>i + 1</sub>_ (1 &le; i &lt; _N_)
+## Problem Statement: <br>
+When he was younger, H Ram’s CS teacher gave him a challenge. She laid out _N_ numbered blocks in a row (_A_) and gave him an integer _X_. She then asked him to find 2 integers i and j such that _A<sub>i</sub>_ + _A<sub>j</sub>_ = _X_.
+If there are multiple solutions, he had to print the one where i is minimum (and _j_ is maximum if there are multiple possible values of _j_). Additionally, A is sorted, i.e. Ai ≤ Ai + 1 (1 ≤ i < N)
 
-**Constraints:** <br>
+## Constraints: <br>
  - 1 &le; _A<sub>i</sub>_ &le; 10<sup>9</sup>
 
 Subtask 1: 20 points
@@ -12,20 +13,20 @@ Subtask 1: 20 points
 Subtask 1: 80 points
  - 1 &le; _N_ &le; 10<sup>5</sup>
 
-**Input Format:** <br>
+## Input Format: <br>
  - The first line contains two integers _N_ and _X_
  - The second line contains _N_ integers representing _A_
 
-**Output Format:** <br>
+## Output Format: <br>
  - Print two integers _i_ and _j_
 
-**Sample input:** <br>
+## Sample input: <br>
 ```
 4 5
 1 2 4 7
 ```
 
-**Sample output:** <br>
+## Sample output: <br>
 ```
 1 3
 ```
