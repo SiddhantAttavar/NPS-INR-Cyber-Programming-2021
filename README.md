@@ -17,4 +17,4 @@ Under the `Prelims` and `Finals` folder you can find subfolders containing the d
  - Subtask distribution: `Subtasks.txt`
  - Test data generator: `Generator.py`
 
-To generate more test data, run the `TestDataGenerator.py` script using the `python TestDataGenerator.py` command and input the relative problem folder path (e.g. `Prelims/Problem 1`). Edit the `Subtasks.txt` file to generate more data of different subtasks.
+To generate more test data, run the `TestDataGenerator.py` script using the `python TestDataGenerator.py` command and input the relative problem folder path (e.g. `Prelims/Problem 1`). Edit the `Subtasks.txt` file in the folder to generate more data of different subtasks.
