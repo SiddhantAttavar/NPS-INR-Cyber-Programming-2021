@@ -20,22 +20,22 @@ Under the `Prelims` and `Finals` folder you can find subfolders containing the d
 To generate more test data, run the `TestDataGenerator.py` script using the `python TestDataGenerator.py` command and input the relative problem folder path (e.g. `Prelims/Problem 1`). Edit the `Subtasks.txt` file in the folder to generate more data of different subtasks.
 
 ## Prelims problems <a name = "prelims-round-tasks"></a>
- - [Sad Bill Gates](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Prelims/Problem%201/Question)
- - [The Perfect Review](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Prelims/Problem%202/Question)
- - [Alien Test](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Prelims/Problem%203/Question)
- - [Sorting students](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Prelims/Problem%204/Question)
- - [Linus Food Tips](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Prelims/Problem%205/Question)
- - [Tesla Pyramid](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Prelims/Problem%206/Question)
- - [The McAfee Tragedy](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Prelims/Problem%207/Question)
- - [Hey Google, play poker.](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Prelims/Problem%208/Question)
+ - [Sad Bill Gates](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Prelims/Problem1/Question)
+ - [The Perfect Review](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Prelims/Problem2/Question)
+ - [Alien Test](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Prelims/Problem3/Question)
+ - [Sorting students](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Prelims/Problem4/Question)
+ - [Linus Food Tips](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Prelims/Problem5/Question)
+ - [Tesla Pyramid](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Prelims/Problem6/Question)
+ - [The McAfee Tragedy](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Prelims/Problem7/Question)
+ - [Hey Google, play poker.](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Prelims/Problem8/Question)
 
 ## Finals problems <a name = "finals"></a>
- - [Jack Ma’s New Hobby](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Finals/Problem%201/Question)
- - [H Ram Learns Maths](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Finals/Problem%202/Question)
- - [Jeff Needs Help](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Finals/Problem%203/Question)
- - [Bill’s Cookie Addiction](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Finals/Problem%204/Question)
- - [Mr. Beast’s Generous Giveaway](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Finals/Problem%205/Question)
- - [Elon Musk’s Crazy Contraption](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Finals/Problem%206/Question)
- - [Mark’s Lizardish Translator](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Finals/Problem%207/Question)
- - [Tim Cook’s Protest](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Finals/Problem%208/Question)
+ - [Jack Ma’s New Hobby](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Finals/Problem1/Question)
+ - [H Ram Learns Maths](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Finals/Problem2/Question)
+ - [Jeff Needs Help](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Finals/Problem3/Question)
+ - [Bill’s Cookie Addiction](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Finals/Problem4/Question)
+ - [Mr. Beast’s Generous Giveaway](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Finals/Problem5/Question)
+ - [Elon Musk’s Crazy Contraption](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Finals/Problem6/Question)
+ - [Mark’s Lizardish Translator](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Finals/Problem7/Question)
+ - [Tim Cook’s Protest](https://siddhantattavar.github.io/NPS-INR-Cyber-Programming-2021/Finals/Problem8/Question)
 
